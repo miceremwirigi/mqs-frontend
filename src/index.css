@@ -83,7 +83,7 @@ table {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-    min-height: 50vh;
+    min-height: 35vh;
 }
 
 table th, table td {
