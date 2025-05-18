@@ -100,7 +100,7 @@
                     const timeDiff = nextServiceDate - today;
                     const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
 
-                    const marker = daysDiff <= 0 ? '❌' : daysDiff <= 30 ? '🟠' : '✅';
+                    const marker = daysDiff <= 0 ? '❌ Passed' : daysDiff <= 30 ? '🟠 Due' : '✅ Done';
 
                     newRow.innerHTML = `
                         <td>${company}</td>

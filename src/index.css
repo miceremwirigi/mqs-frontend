@@ -201,6 +201,7 @@ form button[type="submit"]:hover {
 
     table {
         font-size: 0.9rem;
+        min-height: 30vh;
     }
 
     table th, table td {
